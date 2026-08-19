@@ -1,0 +1,6 @@
+age_group_code,age_group_description,min_age,max_age
+AG01,18-25,18,25
+AG02,26-35,26,35
+AG03,36-45,36,45
+AG04,46-55,46,55
+AG05,56-65,56,65

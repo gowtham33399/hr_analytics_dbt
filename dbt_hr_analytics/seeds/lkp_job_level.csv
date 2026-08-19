@@ -1,0 +1,6 @@
+job_level,job_level_code,job_level_description
+1,JL01,Entry Level
+2,JL02,Intermediate Level
+3,JL03,Senior Level
+4,JL04,Manager Level
+5,JL05,Executive Level

@@ -1,0 +1,4 @@
+business_travel_code,business_travel_description
+BT01,Non-Travel
+BT02,Travel_Rarely
+BT03,Travel_Frequently
