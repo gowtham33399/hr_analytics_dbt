@@ -1,0 +1,125 @@
+
+sources:
+  - name: staging
+    database: hr_analytics
+    description: "Staging schema for HR data"
+    schema: staging
+
+    tables:
+      - name: hr_data
+        description: "HR employee data containing demographic, job, compensation, satisfaction, and attrition information."
+
+        columns:
+          - name: EmpID
+            description: "Unique identifier for the employee."
+
+          - name: Age
+            description: "Age of the employee in years."
+
+          - name: AgeGroup
+            description: "Age group or category assigned to the employee."
+
+          - name: Attrition
+            description: "Indicates whether the employee has left the organization."
+
+          - name: BusinessTravel
+            description: "Frequency at which the employee travels for business."
+
+          - name: DailyRate
+            description: "Daily pay rate of the employee."
+
+          - name: Department
+            description: "Department in which the employee works."
+
+          - name: DistanceFromHome
+            description: "Distance between the employee's home and workplace."
+
+          - name: Education
+            description: "Education level of the employee."
+
+          - name: EducationField
+            description: "Field or area of education of the employee."
+
+          - name: EmployeeCount
+            description: "Employee count associated with the record."
+
+          - name: EmployeeNumber
+            description: "Unique numeric identifier assigned to the employee."
+
+          - name: EnvironmentSatisfaction
+            description: "Employee's satisfaction level with the work environment."
+
+          - name: Gender
+            description: "Gender of the employee."
+
+          - name: HourlyRate
+            description: "Hourly pay rate of the employee."
+
+          - name: JobInvolvement
+            description: "Employee's level of involvement in their job."
+
+          - name: JobLevel
+            description: "Job level or seniority level of the employee."
+
+          - name: JobRole
+            description: "Job role or position held by the employee."
+
+          - name: JobSatisfaction
+            description: "Employee's satisfaction level with their job."
+
+          - name: MaritalStatus
+            description: "Marital status of the employee."
+
+          - name: MonthlyIncome
+            description: "Monthly income of the employee."
+
+          - name: SalarySlab
+            description: "Salary range or slab assigned to the employee."
+
+          - name: MonthlyRate
+            description: "Monthly rate associated with the employee."
+
+          - name: NumCompaniesWorked
+            description: "Number of companies the employee has previously worked for."
+
+          - name: Over18
+            description: "Indicates whether the employee is over 18 years of age."
+
+          - name: OverTime
+            description: "Indicates whether the employee works overtime."
+
+          - name: PercentSalaryHike
+            description: "Percentage increase in the employee's salary."
+
+          - name: PerformanceRating
+            description: "Performance rating assigned to the employee."
+
+          - name: RelationshipSatisfaction
+            description: "Employee's satisfaction level with workplace relationships."
+
+          - name: StandardHours
+            description: "Standard working hours associated with the employee."
+
+          - name: StockOptionLevel
+            description: "Stock option level assigned to the employee."
+
+          - name: TotalWorkingYears
+            description: "Total number of years the employee has been working."
+
+          - name: TrainingTimesLastYear
+            description: "Number of training sessions attended by the employee in the previous year."
+
+          - name: WorkLifeBalance
+            description: "Employee's rating of their work-life balance."
+
+          - name: YearsAtCompany
+            description: "Number of years the employee has worked at the current company."
+
+          - name: YearsInCurrentRole
+            description: "Number of years the employee has been in their current role."
+
+          - name: YearsSinceLastPromotion
+            description: "Number of years since the employee's last promotion."
+
+          - name: YearsWithCurrManager
+            description: "Number of years the employee has worked with their current manager."
