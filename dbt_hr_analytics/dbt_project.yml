@@ -43,3 +43,7 @@ models:
 seeds:
   dbt_hr_analytics:
     +schema: seeds
+
+tests:
+  dbt_hr_analytics:
+    +schema: failed_records
