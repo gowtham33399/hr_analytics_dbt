@@ -1,0 +1,57 @@
+
+models:
+  - name: bronze_hr_data
+    description: "Bronze layer model containing raw HR employee data."
+
+    columns:
+      - name: emp_id
+      - name: age
+        data_tests:
+           - test_less_than_18:
+               description: "Age should be less than 18."
+               config:
+                 severity: warn
+      - name: age_group
+      - name: attrition
+      - name: business_travel
+      - name: daily_rate
+        data_tests:
+          - test_less_than_val :
+              description: "DailyRate should be less than 100."
+              arguments:
+                threshold: 100
+              config:
+                severity: warn
+      - name: department
+      - name: distance_from_home
+      - name: education
+      - name: education_field
+      - name: employee_count
+      - name: employee_number
+      - name: environment_satisfaction
+      - name: gender
+      - name: hourly_rate
+      - name: job_involvement
+      - name: job_level
+      - name: job_role
+      - name: job_satisfaction
+      - name: marital_status
+      - name: monthly_income
+      - name: salary_slab
+      - name: monthly_rate
+      - name: num_companies_worked
+      - name: over_18
+      - name: over_time
+      - name: percent_salary_hike
+      - name: performance_rating
+      - name: relationship_satisfaction
+      - name: standard_hours
+      - name: stock_option_level
+      - name: total_working_years
+      - name: training_times_last_year
+      - name: work_life_balance
+      - name: years_at_company
+      - name: years_in_current_role
+      - name: years_since_last_promotion
+      - name: years_with_curr_manager
+
