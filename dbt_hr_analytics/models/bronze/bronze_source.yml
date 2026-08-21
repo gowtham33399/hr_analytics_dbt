@@ -12,6 +12,15 @@ sources:
         columns:
           - name: EmpID
             description: "Unique identifier for the employee."
+            data_tests:
+              - not_null :
+                  description: "EmpID should not be null."
+                  config:
+                    severity: warn
+              - unique :
+                  description: "EmpID should be unique."
+                  config:
+                    severity: warn
 
           - name: Age
             description: "Age of the employee in years."
